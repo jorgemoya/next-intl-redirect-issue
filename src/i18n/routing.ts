@@ -10,6 +10,9 @@ export const routing = defineRouting({
       en: '/pathnames',
       de: '/pfadnamen'
     }
+  },
+  localePrefix: {
+    mode: 'as-needed'
   }
 });
 
